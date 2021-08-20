@@ -1,0 +1,77 @@
+/* Globales */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Fondos */
+
+.bg-pink {
+    background-color: #E83E8C;
+}
+
+.bg-lightblue {
+    background-color: #17A2B8;
+}
+
+
+/* Navbar */
+
+.logo {
+    height: 53px;
+    width: 132px;
+}
+
+.navbar-nav li {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/* Productos */
+
+.title {
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    font-size: 3rem;
+}
+
+.productos {
+    margin-top: 130px;
+}
+
+section h1 {
+    padding-bottom: 65px;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.list-group-item,
+.card-link {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+/* Medios de pago */
+
+.medios-pago p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+/* Footer */
+
+footer img {
+    height: 100px;
+}

@@ -4,15 +4,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    color: #3B26C0;
+}
+
 
 /* Fondos */
 
 .bg-pink {
-    background-color: #E83E8C;
+    background-color: #5B3EE8;
 }
 
 .bg-lightblue {
-    background-color: #17A2B8;
+    background-color: #5B3EE8;
 }
 
 
@@ -37,7 +41,7 @@ body {
 
 .title {
     letter-spacing: 0px;
-    color: #707070;
+    color: #2C234D;
     opacity: 1;
     font-size: 3rem;
 }
@@ -58,7 +62,7 @@ section h1 {
 .list-group-item,
 .card-link {
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 

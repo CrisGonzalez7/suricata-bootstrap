@@ -8,6 +8,23 @@ a {
     color: #3B26C0;
 }
 
+.display-contents {
+    display: contents;
+}
+
+
+/* Accesibilidad */
+
+.sr-only {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 
 /* Fondos */
 
@@ -44,6 +61,7 @@ a {
     color: #2C234D;
     opacity: 1;
     font-size: 3rem;
+    margin-bottom: 36px;
 }
 
 .productos {

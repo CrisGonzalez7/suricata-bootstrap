@@ -69,43 +69,9 @@ section h1 {
 }
 
 .card-img-top {
+    max-width: 90%;
+    height: auto;
     margin: auto;
-}
-
-@media (max-width: 1440px) {
-    .card-img-top {
-        width: 414px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .card-img-top {
-        width: 294px;
-    }
-}
-
-@media (max-width: 850px) {
-    .card-img-top {
-        width: 210px;
-    }
-}
-
-@media (max-width: 768px) {
-    .card-img-top {
-        width: 214px;
-    }
-}
-
-@media (max-width: 450px) {
-    .card-img-top {
-        width: 300px;
-    }
-}
-
-@media (max-width: 320px) {
-    .card-img-top {
-        width: 294px;
-    }
 }
 
 .card-text {

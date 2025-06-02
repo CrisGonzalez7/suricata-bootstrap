@@ -8,6 +8,10 @@ a {
     color: #3B26C0;
 }
 
+main {
+    min-height: 100vh;
+}
+
 
 /* Accesibilidad */
 

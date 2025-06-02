@@ -12,17 +12,16 @@ main {
     min-height: 100vh;
 }
 
+.modo-dark {
+    color: #fff;
+}
 
-/* Accesibilidad */
-
-.sr-only {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
+body,
+.card,
+a,
+.bg-navbar,
+.bg-lightblue {
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 
@@ -34,6 +33,19 @@ main {
 
 .bg-lightblue {
     background-color: #5B3EE8;
+}
+
+
+/* Accesibilidad */
+
+.sr-only {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 
@@ -62,6 +74,12 @@ main {
     opacity: 1;
     font-size: 3rem;
     margin-bottom: 36px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .title {
+        color: #fff;
+    }
 }
 
 .productos {
@@ -102,4 +120,27 @@ section h1 {
 
 footer img {
     height: 100px;
+}
+
+
+/* Modo oscuro manual */
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .bg-navbar,
+.dark-mode .bg-lightblue {
+    background-color: #121212 !important;
+}
+
+.dark-mode .card {
+    background-color: #5B3EE8;
+    border-color: #333;
+    color: #fff;
+}
+
+.dark-mode a {
+    color: #fff;
 }

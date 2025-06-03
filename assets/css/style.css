@@ -1,9 +1,22 @@
+/* Open Sans Regular (400) */
+
 @font-face {
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 400;
     font-display: swap;
-    src: url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.woff2") format("woff2"), url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.woff") format("woff");
+    src: url('../fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+
+/* Open Sans Bold (700) */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/open-sans/OpenSans-Bold.ttf') format('truetype');
 }
 
 

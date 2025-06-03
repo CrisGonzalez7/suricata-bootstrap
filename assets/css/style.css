@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.woff2") format("woff2"), url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.woff") format("woff");
+}
+
+
 /* Globales */
 
 body {
@@ -95,7 +104,6 @@ section h1 {
     font-weight: 400;
 }
 
-.list-group-item,
 .card-link {
     font-size: 13px;
     font-weight: 600;
@@ -141,4 +149,8 @@ footer img {
 
 .dark-mode .title {
     color: #fff;
+}
+
+.clase-prueba {
+    margin: 0px;
 }

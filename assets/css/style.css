@@ -1,3 +1,36 @@
+/* Font Awesome 5 Free */
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.woff2") format("woff2"), url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.woff") format("woff");
+}
+
+
+/* Open Sans Regular (400) */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+
+/* Open Sans Bold (700) */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/open-sans/OpenSans-Bold.ttf') format('truetype');
+}
+
+
 /* Globales */
 
 body {
@@ -12,17 +45,16 @@ main {
     min-height: 100vh;
 }
 
+.modo-dark {
+    color: #fff;
+}
 
-/* Accesibilidad */
-
-.sr-only {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
+body,
+.card,
+a,
+.bg-navbar,
+.bg-lightblue {
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 
@@ -34,6 +66,19 @@ main {
 
 .bg-lightblue {
     background-color: #5B3EE8;
+}
+
+
+/* Accesibilidad */
+
+.sr-only {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 
@@ -83,7 +128,6 @@ section h1 {
     font-weight: 400;
 }
 
-.list-group-item,
 .card-link {
     font-size: 13px;
     font-weight: 600;
@@ -102,4 +146,35 @@ section h1 {
 
 footer img {
     height: 100px;
+}
+
+
+/* Modo oscuro manual */
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .bg-navbar,
+.dark-mode .bg-lightblue {
+    background-color: #121212 !important;
+}
+
+.dark-mode .card {
+    background-color: #5B3EE8;
+    border-color: #333;
+    color: #fff;
+}
+
+.dark-mode a {
+    color: #fff;
+}
+
+.dark-mode .title {
+    color: #fff;
+}
+
+.clase-prueba {
+    margin: 0px;
 }

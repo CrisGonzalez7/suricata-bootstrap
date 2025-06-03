@@ -160,18 +160,9 @@
             const toggleButton = document.getElementById("theme-toggle");
             const themeIcon = document.getElementById("theme-icon");
             const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-            // 1. Aplica tema guardado o automático por defecto
-            const savedTheme = localStorage.getItem("theme");
-            if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
-                document.body.classList.add("dark-mode");
-                themeIcon.classList.replace("fa-moon", "fa-sun");
-            }
-
-            // 2. Alternar tema al hacer clic
+            //  Alternar tema al hacer clic
             toggleButton.addEventListener("click", () => {
                 const isDark = document.body.classList.toggle("dark-mode");
-
                 // Cambia el ícono
                 if (isDark) {
                     themeIcon.classList.replace("fa-moon", "fa-sun");
